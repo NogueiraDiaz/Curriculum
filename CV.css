@@ -1,0 +1,153 @@
+body {
+  font-family: Candara;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgb(244, 220, 194), rgb(247, 214, 178));
+}
+
+header {
+  display: flex;
+  background-color: rgb(29, 29, 29);
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1em;
+}
+
+header img {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+article {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+hr{
+width: 200px;
+background-color: black;
+
+}
+
+section {
+  flex: 1;
+  min-width: 290px;
+  width: auto;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  padding: 20px;
+  align-items: center;
+}
+
+.contenido {
+  height: 65%;
+  text-align: center;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(29, 29, 29);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.contenido2 {
+  height: 60%;
+  text-align: center;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.barra {
+  border: solid black 1.5px;
+  border-radius: 1em;
+  height: 1em;
+  width: 80%;
+  background-color: black;
+}
+
+.español {
+  border-radius: 10px;
+  height: 1em;
+  width: 95%;
+  background: linear-gradient(to right, rgb(244, 220, 194), rgb(247, 214, 178));
+}
+
+.ingles {
+  border-radius: 10px;
+  height: 1em;
+  width: 80%;
+  background: linear-gradient(to right, rgb(244, 220, 194), rgb(247, 214, 178));
+}
+
+.titulo {
+  margin: 3%;
+  border-radius: 50px;
+  display: flex;
+  color: #fff;
+  width: 325px;
+  background-color: rgb(29, 29, 29);
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.educacion {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.educacion div{
+  text-align: center;
+  flex: 0.5;
+  min-width: 476px;
+
+}
+
+.experiencia{
+
+min-width: 45%;
+
+}
+
+footer {
+  background-color: rgb(29, 29, 29);
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+
+
