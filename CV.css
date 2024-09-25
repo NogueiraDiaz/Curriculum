@@ -105,7 +105,7 @@ li {
 .español {
   border-radius: 10px;
   height: 1em;
-  width: 95%;
+  width: 100%;
   background: linear-gradient(to right, rgb(244, 220, 194), rgb(247, 214, 178));
 }
 
